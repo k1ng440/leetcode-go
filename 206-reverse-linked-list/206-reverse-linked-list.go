@@ -1,23 +1,22 @@
 package reverselinkedlist
 
 type LinkedList struct {
-    Val int
-    Next *LinkedList
+	Val  int
+	Next *LinkedList
 }
 
 func reverseList(head *LinkedList) *LinkedList {
-    var (
-        prev *LinkedList 
-        curr = head
-    )
+	var (
+		prev *LinkedList
+		curr = head
+	)
 
-    for curr != nil {
-        temp := head.Next
-        curr.Next = prev
-        prev = curr
-        curr = temp
-    }
+	for curr != nil {
+		temp := head.Next
+		curr.Next = prev
+		prev = curr
+		curr = temp
+	}
 
-    return prev
+	return prev
 }
-

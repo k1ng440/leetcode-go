@@ -11,11 +11,11 @@ var (
 
 func intToRoman(num int) string {
 	res := make([]string, 0)
+
 	for i := 0; num != 0; i++ {
 		for num >= val[i] {
-			if num == val[i] {
-				res = append(res, sym[i])
-			}
+			res = append(res, sym[i])
+			num -= val[i]
 		}
 	}
 
