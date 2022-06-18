@@ -12,4 +12,3 @@ repos:
       - id: go-lint
       - id: go-unit-tests
       - id: go-err-check # requires github.com/kisielk/errcheck
-      - id: golangci-lint # requires github.com/golangci/golangci-lint
