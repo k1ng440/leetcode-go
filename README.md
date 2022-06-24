@@ -20,7 +20,7 @@ Use them at your own risk
 
 ### Linked list
 * [Singly Linked List](https://www.educative.io/answers/what-is-a-singly-linked-list) (GFG)[https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/]
-
+* [Fast and Slow Pointer: Floyd’s Cycle Detection Algorithm](https://codeburst.io/fast-and-slow-pointer-floyds-cycle-detection-algorithm-9c7a8693f491)
 
 ### Greedy
 Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are the best fit for Greedy.
