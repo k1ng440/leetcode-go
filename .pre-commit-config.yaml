@@ -14,4 +14,3 @@ repos:
       - id: go-vet
       - id: go-lint
       - id: go-unit-tests
-      - id: go-err-check # requires github.com/kisielk/errcheck

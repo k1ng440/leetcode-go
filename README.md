@@ -8,7 +8,6 @@ Learn algorithm and level up my problem solving skill
 The problems are solved fast as possible regardless of code quality or optimal way possible.
 Use them at your own risk
 
-
 ## Algorithm
 
 ### Subarray
@@ -19,7 +18,7 @@ Use them at your own risk
 * [link](https://www.geeksforgeeks.org/binary-search/)
 
 ### Linked list
-* [Singly Linked List](https://www.educative.io/answers/what-is-a-singly-linked-list) (GFG)[https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/]
+* [Singly Linked List](https://www.educative.io/answers/what-is-a-singly-linked-list) [GFG](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)
 * [Fast and Slow Pointer: Floyd’s Cycle Detection Algorithm](https://codeburst.io/fast-and-slow-pointer-floyds-cycle-detection-algorithm-9c7a8693f491)
 
 ### Greedy
