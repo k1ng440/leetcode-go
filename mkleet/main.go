@@ -34,11 +34,13 @@ func main() {
 
 	q := &questionwriter.QuestionWriter{
 		URL:      strings.TrimSpace(os.Args[1]),
+		Slug:     slug,
 		Path:     path.Join(workingDir, fmt.Sprintf("%s-%s", res.Data.Question.QuestionID, slug)),
 		Question: res,
 	}
 
 	q.WriteMarkdown()
+	q.WriteBoilerPlate()
 }
 
 func formatPackageName() string {

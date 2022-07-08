@@ -8,6 +8,11 @@ Learn algorithm and level up my problem solving skill
 The problems are solved fast as possible regardless of code quality or optimal way possible.
 Use them at your own risk
 
+## Using Generator
+```
+go run mkleet/main.go https://leetcode.com/problems/jump-game-ii/
+```
+
 ## Algorithm
 
 ### Subarray
