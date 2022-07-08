@@ -1,22 +1,23 @@
 package reverselinkedlist
 
-type LinkedList struct {
+// Definition for singly-linked list.
+type ListNode struct {
 	Val  int
-	Next *LinkedList
+	Next *ListNode
 }
 
-func reverseList(head *LinkedList) *LinkedList {
+func reverseList(head *ListNode) *ListNode {
 	var (
-		prev *LinkedList
 		curr = head
+		prev *ListNode
 	)
 
 	for curr != nil {
-		temp := head.Next
+		realNext := curr.Next
 		curr.Next = prev
 		prev = curr
-		curr = temp
+		curr = realNext
 	}
 
-	return prev
+	return curr
 }

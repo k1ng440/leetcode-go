@@ -12,12 +12,6 @@ import (
 	"strings"
 )
 
-var (
-	reg      = regexp.MustCompile(`[a-zA-Z0-9]+`)
-	reg1     = regexp.MustCompile(`^[0-9]+`)
-	repalcer = strings.NewReplacer(" ", "-", "_", "-", ".", "_")
-)
-
 func main() {
 	if len(os.Args) != 2 {
 		fmt.Println("invalid numbers of args")
@@ -41,17 +35,6 @@ func main() {
 
 	q.WriteMarkdown()
 	q.WriteBoilerPlate()
-}
-
-func formatPackageName() string {
-	res := strings.Join(reg.FindAllString(os.Args[1], 10), "")
-	return string(reg1.ReplaceAll([]byte(res), []byte("")))
-}
-
-func formatPath() string {
-	res := os.Args[1]
-	res = strings.ToLower(res)
-	return repalcer.Replace(res)
 }
 
 func checkError(err error) {
