@@ -35,6 +35,8 @@ func main() {
 
 	q.WriteMarkdown()
 	q.WriteBoilerPlate()
+
+	fmt.Printf("boilerplate generated: %s", q.Path)
 }
 
 func checkError(err error) {
