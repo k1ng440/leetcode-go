@@ -21,6 +21,7 @@ go run mkleet/main.go https://leetcode.com/problems/jump-game-ii/
 
 ### Binary Search
 * [link](https://www.geeksforgeeks.org/binary-search/)
+* [Binary Search Template](https://leetcode.com/problems/first-bad-version/discuss/769685/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
 
 ### Linked list
 * [Singly Linked List](https://www.educative.io/answers/what-is-a-singly-linked-list) [GFG](https://www.geeksforgeeks.org/data-structures/linked-list/singly-linked-list/)
